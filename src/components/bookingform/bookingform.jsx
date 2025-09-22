@@ -106,7 +106,7 @@ const BookingForm = ({ onSubmit }) => {
         </div>
       </form>
     </div>
-  );
-};
+  )
+}
 
 export default BookingForm;

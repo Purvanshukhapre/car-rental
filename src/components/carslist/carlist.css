@@ -129,7 +129,6 @@
   background-color: #c70000;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .fleet-content {
     flex-direction: column;

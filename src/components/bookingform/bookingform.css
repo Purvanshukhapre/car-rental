@@ -63,7 +63,6 @@ button[type="submit"]:hover {
   background-color: #c70000;
 }
 
-/* Mobile-friendly layout */
 @media (max-width: 600px) {
   .booking-form {
     grid-template-columns: 1fr;

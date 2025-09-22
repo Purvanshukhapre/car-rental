@@ -18,7 +18,7 @@ const Footer = () => {
         <img id="img-cont" src="src/assets/kindpng_4950809.png" />
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default Footer;

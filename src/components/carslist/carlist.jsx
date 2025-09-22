@@ -172,7 +172,7 @@ const CarList = ({ scrollToBooking }) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default CarList;

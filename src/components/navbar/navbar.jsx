@@ -7,7 +7,7 @@ const Navbar = ({ onHomeClick, onServiceClick, onFleetClick, onBookingClick, onC
   const handleNavClick = (callback) => {
     callback();
     setIsOpen(false);
-  };
+  }
 
   return (
     <nav>
@@ -34,7 +34,7 @@ const Navbar = ({ onHomeClick, onServiceClick, onFleetClick, onBookingClick, onC
         <li><button className='btn-cont' onClick={() => handleNavClick(onContactClick)}>Contact</button></li>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
 export default Navbar;

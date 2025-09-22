@@ -7,26 +7,22 @@ import Service from '../service/service';
 import './home.css';
 
 const Home = () => {
-  // Refs for scrolling
   const homeRef = useRef(null);
   const serviceRef = useRef(null);
   const carListRef = useRef(null);
   const bookingRef = useRef(null);
   const footerRef = useRef(null);
 
-  // Scroll function
   const scrollToSection = (ref) => {
     ref.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+  }
 
-  // Booking form submit handler
   const handleBookingSubmit = () => {
     alert("✅ Your car has been booked successfully!");
-  };
+  }
 
   return (
     <div className="home-wrapper">
-      {/* Pass scroll handlers to navbar */}
       <Navbar
         onHomeClick={() => scrollToSection(homeRef)}
         onServiceClick={() => scrollToSection(serviceRef)}
@@ -35,7 +31,6 @@ const Home = () => {
         onContactClick={() => scrollToSection(footerRef)}
       />
 
-      {/* Hero Section */}
       <div className="container main-cont" ref={homeRef}>
         <div className="text-cont">
           <strong className="text-1">Plan Your Next Trip Now</strong>
@@ -61,33 +56,29 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Booking Form Section */}
       <div className="container booking-section" ref={bookingRef}>
         <BookingForm onSubmit={handleBookingSubmit} />
       </div>
 
       <br /><br /><br />
 
-      {/* Services Section */}
       <div ref={serviceRef}>
         <Service />
       </div>
 
       <br /><br /><br />
 
-      {/* CarList/Fleet Section */}
       <div ref={carListRef}>
         <CarList scrollToBooking={() => scrollToSection(bookingRef)} />
       </div>
 
       <br /><br /><br />
 
-      {/* Footer/Contact Section */}
       <div ref={footerRef}>
         <Footer />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Home;

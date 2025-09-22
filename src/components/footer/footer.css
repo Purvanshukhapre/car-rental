@@ -1,6 +1,6 @@
 .promo-section {
   text-align: center;
-  padding: 50px 20px 0; /* Extra bottom space for image overlap */
+  padding: 50px 20px 0;
   position: relative;
   overflow: hidden;
   margin-top: 100px;
@@ -30,8 +30,6 @@
   width: 100%;
 }
 
-
-/* Responsive */
 @media (max-width: 768px) {
   .promo-text h2 {
     font-size: 35px;

@@ -34,7 +34,7 @@ const Service = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default Service;
