@@ -1,0 +1,48 @@
+.promo-section {
+  text-align: center;
+  padding: 50px 20px 0; /* Extra bottom space for image overlap */
+  position: relative;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.promo-text h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.promo-text p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.promo-text .highlight {
+  color: #d11a2a;
+  font-weight: 700;
+}
+
+.promo-images {
+  width: 100%;
+}
+
+.promo-images img {
+  width: 100%;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .promo-text h2 {
+    font-size: 35px;
+  }
+
+  .promo-text p {
+    font-size: 25px;
+  }
+}
+@media (min-width:375px) {
+  #img-cont{
+    width: 100% !important;
+  }
+}
