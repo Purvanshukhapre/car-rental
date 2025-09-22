@@ -15,7 +15,7 @@ const Footer = () => {
       <br />
 
       <div className="promo-images">
-        <img id="img-cont" src="src/assets/kindpng_4950809.png" />
+        <img id="img-cont" src="public/kindpng_4950809.png" />
       </div>
     </section>
   )

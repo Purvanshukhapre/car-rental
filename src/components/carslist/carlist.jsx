@@ -4,7 +4,7 @@ import { useState } from 'react';
 const cars = [
   {
     name: "Audi A1 S-Line",
-    image: "src/assets/pngimg.com - audi_PNG1741.png",
+    image: "public/pngimg.com - audi_PNG1741.png",
     price: 45,
     details: {
       mark: "Audi",
@@ -18,7 +18,7 @@ const cars = [
   },
   {
     name: "Toyota Camry",
-    image: "src/assets/pngegg.png",
+    image: "public/pngegg.png",
     price: 30,
     details: {
       mark: "Toyota",
@@ -32,7 +32,7 @@ const cars = [
   },
   {
     name: "BMW 320 ModernLine",
-    image: "src/assets/Blue_Bmw_320i_2013_Car_PNG_Clipart-109.png",
+    image: "public/Blue_Bmw_320i_2013_Car_PNG_Clipart-109.png",
     price: 55,
     details: {
       mark: "BMW",
@@ -46,7 +46,7 @@ const cars = [
   },
   {
     name: "Mercedes-Benz GLK",
-    image: "src/assets/pngimg.com - mercedes_PNG1903.png",
+    image: "public/pngimg.com - mercedes_PNG1903.png",
     price: 60,
     details: {
       mark: "Mercedes",
@@ -60,7 +60,7 @@ const cars = [
   },
     {
     name: "Ford Mustang GT",
-    image: "src/assets/pngimg.com - mustang_PNG15.png",
+    image: "public/pngimg.com - mustang_PNG15.png",
     price: 70,
     details: {
       mark: "Ford",
@@ -74,7 +74,7 @@ const cars = [
   },
   {
     name: "Tesla Model 3",
-    image: "src/assets/pngimg.com - tesla_car_PNG41.png",
+    image: "public/pngimg.com - tesla_car_PNG41.png",
     price: 65,
     details: {
       mark: "Tesla",
@@ -88,7 +88,7 @@ const cars = [
   },
   {
     name: "Honda CR-V",
-    image: "src/assets/pngimg.com - honda_PNG102934.png",
+    image: "public/pngimg.com - honda_PNG102934.png",
     price: 40,
     details: {
       mark: "Honda",
