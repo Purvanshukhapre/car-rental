@@ -52,7 +52,7 @@ const Home = () => {
         </div>
 
         <div className="img-cont">
-          <img src="public/pngimg.com - audi_PNG1736.png" alt="Car" />
+          <img src="/pngimg.com - audi_PNG1736.png" alt="Car" />
         </div>
       </div>
 
